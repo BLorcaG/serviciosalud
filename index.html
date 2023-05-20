@@ -1,0 +1,176 @@
+<!DOCTYPE html> 
+
+<html lang="es">
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <!--<meta name="viewport" content="width=device-width"> permite adaptar la pagina para volver responsivo en el uso de otros dispositivos (moviles en su mayoria)-->
+        <title>Servicio de Salud Alternativa</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>    
+
+<!-- !DOCTYPE html--- ayuda a indicar al navegador que estamos trabajando con html5
+html lang="es"--- ayuda a indicar el tipo de lenguaje con el que se interactuará (español, ingles)
+<head> Cuando se indica la etiqueta head, se trabajará sobre esta, donde se podrá despliegará el contenido de una pagina
+, siendo etiquetas informativas deldesarrollo de la pagina
+meta charset="UTF-8" Corresponde a la convencion que se utiliza para indicar al navegador que tendremos caracteres 
+especiales para que no los diferencie y ponga otro caracter (en caso de espñol, siempre pone caracteres especiales 
+por la Ñ, acentos, etc)
+
+<title> indica el nombre de la pagina
+link rel="stylesheet" href="style.css" --- Se trabaja como indicador de vinculacion con otro archivo, donde se trabajara
+en codigo css
+
+ORDEN DE PRESENTACION Y TRABAJO EN <HTML>
+
+    <!DOCTYPE html> 
+
+    <html lang="es">
+    
+        <head>
+    
+            <meta charset="UTF-8">
+            <title>"nombre de la pagina"</title>
+            <link rel="stylesheet" href="seponenombredeunarchivoatrabajar.css">
+    
+        </head>
+
+        <h1>Servicio de Salud Alternativa</h1>
+        ** Cuando queremos mostrar un titulo de pagina como encabezado, se coloca la etiqueta <header> donde esta toma como
+            dato transformandose en el h1, no lo reemplaza, solo que se usará como tambien un titulo completo
+        </header>
+
+        <body> donde se redactará toda la pagina <'/body>
+-->
+    <body>
+
+        <header>
+            <div class="caja">
+                    <h1><img class="servicio" src="pagina/servicio-de-salud-alternativa-high-resolution-color-logo.png"></h1> 
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="Productos.html">Servicios</a></li>
+                            <li><a href="Contacto.html">Contactanos</a></li>
+    
+                        </ul>   
+                    </nav>
+            </div>
+          <!--<div> Divide el contendio de la pagina en secciones </div> 
+    <section> Aplica el mismo criterio que "div", pero debe ser considerado para secciones especificas del codigo al levantar la pagina-->     
+        <header>
+
+        <img class="banner" src="banner/Servicio de Salud Alternativa_banner.png" alt="banner de Servicio de Salud Alternativa">
+
+    <main>
+
+        
+        <section class="principal">
+
+            <h2 class="titulo-principal"> Sobre Servicio de Salud Alternativa </h2>
+
+            <img class="imagenServicio" src="pagina/In the image.jpg" alt="imagen de mujer sanada">
+
+            <!--<img --- Busca llamar una imagen
+             class="imagenServicio" --- clase ayuda a que podamos modiifcar en css el estilo de esa imagen. Se le indica un nombre y cuando se trabaja en CSS, se llama con un punto (Ej: .imagenServicio{})
+
+             src="pagina/In the image.jpg" ---- Se extrae la imagen con la direccion de archivo
+             
+             alt="imagenServicio">--- Ayuda a darle un nombre a la imagen en caso que no cargue la pagina (volver más amigable la pagina y accesibilidad)-->
+
+                <p id="mision"><strong>Misión:</strong> Los servicios prestados por el <strong> Servicio de Salud Alternativa</strong> de tratamiento sobre biomagnetismo, liberación de emociones atrapadas y otras terapias holísticas, estan dedicadas a proporcionar terapias efectivas y de alta calidad para mejorar la salud y el bienestar de nuestros clientes. <strong>Nuestra misión</strong> es ayudar a las personas a mejorar su calidad de vida y encontrar equilibrio en su cuerpo y mente.</p>
+
+                <p><strong>Visión:</strong><em>Nuestra visión es </style><strong id="vision">ser líderes en el campo de la terapia holística, reconocida por ofrecer terapias efectivas y personalizadas que mejoran la salud y el bienestar de nuestros clientes</em></strong>. Nos esforzamos por ser un recurso confiable y accesible para aquellos que buscan mejorar su calidad de vida.</p>
+
+                <p id="nuestras-terapias"><strong>Nuestras terapias:</strong> Ofrecemos una amplia variedad de terapias holísticas, incluyendo el biomagnetismo, liberación de emociones atrapadas, terapia floral y otras terapias complementarias. Cada una de nuestras terapias está diseñada para tratar problemas específicos de salud y mejorar el bienestar físico, emocional y mental.</p>
+
+                <p><strong>Nuestro equipo:</strong> Contamos con un equipo de terapeutas altamente capacitados y con amplia experiencia en el campo de la terapia holística. Todos nuestros terapeutas están comprometidos en ofrecer terapias personalizadas y efectivas para satisfacer las necesidades individuales de cada uno de nuestros clientes.</p>
+
+        </section>
+
+        <section>
+                
+                <p><strong>Contáctanos:</strong> Si estás interesado en aprender más acerca de nuestras terapias o deseas programar una cita con uno de nuestros terapeutas, no dudes en contactarnos a través de nuestra página web. Estamos aquí para ayudarte en tu camino hacia una vida más saludable y equilibrada.</p>
+                
+        </section>
+
+        <section class="mapa">
+            <h3 class="titulo-principal"> Nuestra Ubicación</h3>
+            <p>Nuestro establecimiento esta en el corazon de la ciudad</p>
+            <div class="mapa-contenido">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.187662018817!2d-70.56426805942132!3d-33.470464623492525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662ce2618ec1d81%3A0xbed1bf9c8f96c41d!2sIctinos%201500%2C%20Penalolen%2C%20Pe%C3%B1alol%C3%A9n%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1684008777901!5m2!1ses!2scl" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+
+            <!--<iframe--- etiqueta iframe podemos insertar diferentes tipos de elementos externos en nuestra página. Sean estos mapas, vídeos, imágenes u otras páginas web o páginas de redes sociales.
+              Es posible configurar el tiempo donde queremos que inicien los videos que insertamos en nuestras páginas. Por otro lado, a través de iframe es posible insertar varios tipos de elementos externos, entre ellos los videos son una alternativa viable.-->
+        </section>
+        
+        <section class="atenciones">
+                    
+                <h2 class="titulo-principal">Nuestra atención </h2>
+
+                    <div class="contendido-atenciones">
+                        <ul class="lista-atenciones">
+                            <li class="items"> Atención Personalizada</li>                
+                            <li class="items"> Sesiones presenciales o a distancia</li>
+                            <li class="items"> Privacidad y discrecion</li>
+                            <li class="items"> Buscamos ayudar a resolver el problema desde la raíz</li>
+                                                
+                        </ul><img src="pagina/liberacion1.JPG" class="imagenAtenciones"> 
+                    </div>
+                    <div class="video">
+                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/-F7bdQ1y5oQ?start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        
+                    </div>
+                    <!-- <ul> Genera un listado, pero desordenado</ul>
+    <li> La misma lista, la ordena con un punto inicial, para indicar efectivamente que es una lista</li>
+-->
+                   
+                      
+        </section>
+        
+        
+
+    </main>
+        
+        
+        <footer>
+            <img class="imagen-pie" src="pagina/servicio-de-salud-alternativa-high-resolution-color-logo.png">
+            <p class="copyright">&copy Copyright Servicio de Salud Alternativa - 2023</p>
+        </footer>
+
+    </body>
+<!--ETIQUETAS css
+            estas estiquetas deben ir después de la etiqueta html para poder llamarse en la hoja de desarrollo de css
+
+
+            1. id="nombre"
+            2. class="nombre"
+
+           1. id=""--- Se llama una UNICA vez a una etiqueta html para darle el formato que guste.  # ---- se usa para llamar una ID dentro de las etiquetas html y poder trabajarla en la pagina de trabajo
+            de css. 
+            EJ. 
+            
+            #visión{
+                font-size: 20px;
+            
+            }
+
+          2.   Class --- llama a un tipo de id, pero cuando es reiterado, se debe indicar este tipo de etiqueta, que tambien
+            se trabaja en la hoja de css.Se pueden reutilizar cuantas veces sea necesario
+            OJO: para llamarla en la pagina de desarrollo de la estructura css, se debe llamar con un punto, no con # 
+            Ej.
+            .items{
+                font-style: italic;
+            
+            }
+
+            EL USO DE ID ES PARA ALTERAR COMPORTAMIENTOS EN LA PAGINA, CUANDO USAMOS CLASS ES PARA ALTERAR ESTILO DE PRESENTACION-->
+</html>
